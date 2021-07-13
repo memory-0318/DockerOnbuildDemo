@@ -20,4 +20,4 @@
   ```shell
   docker run -p 8080:8080 app
   ```
-* 若有成功執行，可在瀏覽器輸入`http://localhost:8080/actuactor/health`取得系統狀態。
+* 若有成功執行，可在瀏覽器輸入`http://localhost:8080/actuactor/health` 取得系統狀態。
