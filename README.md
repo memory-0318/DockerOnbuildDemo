@@ -6,7 +6,7 @@
       Image在建置時才會執行。
     * `./docker/Dockerfile` - 使用`./docker/maven.onbuild.Dockerfile`執行maven建置，並將maven產生的jar檔複製到要部署的Image中。
 
-## 建置
+## 建置流程
 * 開啟cmd工具，將專案目錄 (`/DockerOnbuildDemo`)設為工作目錄
 * 建置maven流程Image，並設上tag: `maven-base`，供等等應用程式的Image建置使用：
   ```shell
